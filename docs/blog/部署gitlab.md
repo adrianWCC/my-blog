@@ -5,6 +5,7 @@ tags: [nginx]
 categories: [技术]
 ---
 
+
 1. *安装并配置必要的依赖关系*
 ```
 sudo yum install -y curl policycoreutils-python openssh-server
@@ -15,6 +16,8 @@ sudo firewall-cmd --permanent --add-service=http
 sudo systemctl reload firewalld
 ```
 遇到防火墙问题 请查看 [防火墙](bear://x-callback-url/open-note?id=80C6CFE2-E743-4ECD-B456-48EE717EAAB8-9737-0000263F7A44DAAC)
+
+<!-- more -->
 
 2. *安装postfix 使用邮件提醒*
 ```

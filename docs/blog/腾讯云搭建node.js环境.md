@@ -1,7 +1,7 @@
 ---
 title: 腾讯云搭建node.js环境
 date: 2018-11-08 04:10:03
-tags: [nginx]
+tags: [nginx, 腾讯云]
 categories: [技术]
 ---
 Node.js 是运行在服务端的 JavaScript, 是基于 Chrome JavaScript V8 引擎建立的平台。
