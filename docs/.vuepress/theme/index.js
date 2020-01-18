@@ -98,7 +98,9 @@ module.exports = (themeConfig, ctx) => ({
         moment().format('YYYY-MM-DD HH:mm:ss');
       lastUpdated = changeDate(lastUpdated);
       tags = tags || '';
-      title = title || '你忘记写title字段了';
+
+      const pathTitle =  decodeURI(val.path).slice(6, -5)
+      title = title || pathTitle;
 
       page.excerpt = excerpt;
       page.tags = tags;
