@@ -11,6 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.2.0",
-    "moment": "^2.24.0"
+    "moment": "^2.29.4"
   }
 }
